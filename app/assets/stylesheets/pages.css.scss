@@ -1,0 +1,33 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro|Patua+One);
+
+body {
+  font-family: 'Source Code Pro', mono;
+  letter-spacing: -3px;
+  font-size: 36px;
+  text-align: center;
+  margin: 0; padding: 0;
+  padding: 20% 10%;
+}
+
+h1 {
+  font-family: 'Patua One', cursive;
+  font-size: 1.4rem;
+  letter-spacing: 0px;
+  color: #312e33;
+  position: fixed;
+  margin: 0; padding: 0;
+  bottom: 1rem; right: 2rem;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+}
+
+p#phrase {
+  font-weight: bold;
+  margin: 0 auto;
+  color: #a071cc;
+}
